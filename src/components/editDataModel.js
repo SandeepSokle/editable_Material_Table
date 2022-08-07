@@ -29,7 +29,7 @@ export default function EditDataModel(props) {
   useEffect(() => {
     if (selectedData && !addDetail) setNewData(selectedData);
     if (addDetail) setNewData({});
-  }, [selectedData]);
+  }, [selectedData, addDetail]);
 
   //   console.log("data!!", selectedData, newData);
   return (
