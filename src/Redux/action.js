@@ -21,6 +21,4 @@ const action = {
   },
 };
 
-module.exports = {
-  action,
-};
+export default action

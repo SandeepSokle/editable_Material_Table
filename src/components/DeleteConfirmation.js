@@ -6,7 +6,8 @@ import GeneralInputField from "./GeneralInputField";
 import { useEffect, useState } from "react";
 import GeneralSelectField from "./GeneralSelectField";
 import { useDispatch } from "react-redux";
-import { action } from "../Redux/action";
+import action from "../Redux/action";
+// import { action } from "../Redux/action";
 // import { updateDataActionCreater } from "../Redux/actionCreater";
 
 const style = {
